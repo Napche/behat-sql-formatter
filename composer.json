@@ -1,0 +1,22 @@
+{
+  "name": "napche/behat-sql-formatter",
+  "description": "This will create a html formatter for Behat.",
+  "authors": [
+    {
+      "name"    : "Dieter Vanmoortel - Napche",
+      "homepage": "https://github.com/Napche",
+      "role"    : "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "behat/behat": "~3.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Napche\\BehatSqlFormatter\\": "src/"
+    }
+  }
+}
